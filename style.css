@@ -1,0 +1,128 @@
+body {
+    background-color: #f4efe6;
+  }
+  
+  #container{
+    width: 960px;
+    margin: 0px auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  header img{
+    width: 10%;
+    height: 10%;
+  }
+  
+  
+  #bio img {
+    height: 50%;
+    width: 50%;
+  }
+  
+  
+  #bio {
+    display: flex;
+  }
+  
+  #bio-container {
+    margin-left: 20px;
+    flex: 1;
+  }
+  
+  #namedate {
+    display: flex;
+    justify-content: space-between;
+    color: #375a63;
+    padding-bottom: 12px;
+    font-size: 1.75em;
+  }
+  
+  #namedate p {
+    margin: 0px;
+  }
+  
+  #chose {
+    color: #fff;
+    background-color: #6795A0;
+    padding: 10px;
+  }
+  
+  #chose ui {
+    padding: 0px;
+    list-style-position: inside;
+  }
+  
+  #chose h3 {
+    margin: 0px;
+    color: #ecb172;
+    font-size: 1.5em;
+  }
+  
+  
+  
+  #tech {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  figure {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 185px;
+    
+  }
+  
+  figure img {
+    max-height: 185px;
+  }
+  
+  figcaption {
+    color: #fff;
+    text-align: center;
+    background: rgba(20, 90, 99, .55
+    );
+    position: relative;
+    bottom: 20px;
+    padding: 6px;
+  }
+  
+  #plans h3{
+    margin: 0px;
+    color: #375a63;
+    font-size: 2em;
+    padding: 6px;
+  }
+  
+  #plans h4{
+    margin: 0px;
+    color: #ecb172;
+    font-size: 1.75em;
+  }
+  
+  #plans div{
+    background-color: #6795A0;
+    padding: 6px;
+  }
+  
+  #plans p{
+    color: #f4efe6;
+    font-size: 18px;
+  }
+  
+  footer {
+    background-color: #375a63;
+    text-align: center;
+    font-size: 1em;
+    padding: .5px;
+  }
+  
+  footer p{
+    color: #f4efe6;
+  }
